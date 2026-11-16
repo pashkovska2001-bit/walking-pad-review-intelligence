@@ -1,0 +1,17 @@
+# secrets
+.env
+*.key
+
+# review data, databases and generated reports stay local
+# (review texts are Trustpilot reviewers' content; only code is shared)
+data/
+reports/
+logs/
+private/
+
+# local tooling
+.claude/
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
